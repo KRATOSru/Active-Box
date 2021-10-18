@@ -4,6 +4,7 @@ body {
     font-size: 14px;
     color: #6c7279;
     background-color: #ffffff;
+    -webkit-font-smoothing: antialiased;
 }
 *,
 *:before,
@@ -68,7 +69,7 @@ p {
     flex-direction: column;
     justify-content: center;
     height: 750px;
-    padding-top: 110px;
+    padding-top: 100px;
     background: #31344e
     url("images/man-5640540_1280.webp") center no-repeat;
     background-size: cover;
@@ -80,17 +81,41 @@ p {
     text-align: center;
 }
 .intro__title {
-    margin: 0;
+    margin: 0 0 30px;
     font-family: 'Open Sans',
     'sans-serif';
     font-size: 65px;
-    color: #ffffff;
+    color: #dbd0d0;
     font-weight: 700;
     text-transform: uppercase;
 }
 .intro__subtitle {
+    margin-bottom: 60px;
     font-size: 22px;
     color: #fff;
     line-height: 1.5;
     font-weight: 400;
+}
+/* Button
+==================================================*/
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 14px 40px;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: .1s linear;
+}
+.btn--red {
+    background-color: #e84545;
+}
+.btn--red:hover {
+    background-color: #dd3434;
 }
