@@ -199,7 +199,7 @@ p {
     color: #fff;
 }
 .team {
-    margin: 100px 0;
+    margin: 100px 0 70px;
 }
 .team__inner {
     display: flex;
@@ -209,6 +209,7 @@ p {
 .team__item {
     width: 25%;
     padding: 0 15px;
+    margin-bottom: 30px;
 }
 .team__photo {
     display: block;
