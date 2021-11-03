@@ -232,4 +232,19 @@ p {
     font-size: 14px;
     line-height: 1.5;
     color: #6c7279;
+    margin-bottom: 20px;
+}
+/* Social
+==================================================*/
+.social {
+    display: flex;
+}
+.social__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 4px;
+    border: 1px solid #e8ecee;
 }
