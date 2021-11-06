@@ -100,6 +100,7 @@ p {
 /* Button
 ==================================================*/
 .btn {
+    text-align: center;
     display: inline-block;
     vertical-align: top;
     padding: 14px 40px;
@@ -119,6 +120,9 @@ p {
 }
 .btn--red:hover {
     background-color: #dd3434;
+}
+.btn--long {
+    min-width: 280px;
 }
 /* Features
 ==================================================*/
@@ -293,6 +297,52 @@ p {
     font-weight: 700;
     text-transform: uppercase;
     color: #ffffff;
+}
+/* Download
+==================================================*/
+.download {
+    margin: 90px 0;
+    text-align: center;
+}
+.download__title {
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: #2d3033;
+    font-weight: 300;
+}
+.download__text {
+    margin-bottom: 30px;
+    font-size: 13px;
+    color: #2d3033;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/* Download
+==================================================*/
+.footer {
+    padding: 70px 0;
+    background-color: #3a3e64;
+}
+.footer__inner {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer__block {
+    width: 33.33333%;
+    text-align: center;
+}
+.footer__title {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.footer__address {
+    font-size: 14px;
+    line-height: 1.5;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 
