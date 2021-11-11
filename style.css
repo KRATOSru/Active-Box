@@ -17,6 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
     margin: 0 0 10px;
 }
+
 /* Container
 ==================================================*/
 .container {
@@ -25,6 +26,7 @@ p {
     margin: 0 auto;
     padding: 0 15px;
 }
+
 /* Header
 ==================================================*/
 .header {
@@ -42,6 +44,7 @@ p {
     padding: 35px 0;
     border-bottom: 1px solid #515369;
 }
+
 /* Nav
 ==================================================*/
 .nav {
@@ -63,6 +66,7 @@ p {
 .nav__link:hover {
     opacity: 1;
 }
+
 /* Intro
 ==================================================*/
 .intro {
@@ -97,6 +101,7 @@ p {
     line-height: 1.5;
     font-weight: 400;
 }
+
 /* Button
 ==================================================*/
 .btn {
@@ -124,6 +129,7 @@ p {
 .btn--long {
     min-width: 280px;
 }
+
 /* Features
 ==================================================*/
 .features {
@@ -152,6 +158,7 @@ p {
     line-height: 1.5;
     color: #6c7279;
 }
+
 /* Works
 ==================================================*/
 .works {
@@ -238,10 +245,14 @@ p {
     color: #6c7279;
     margin-bottom: 20px;
 }
+
 /* Social
 ==================================================*/
 .social {
     display: flex;
+}
+.social--footer {
+    justify-content: center;
 }
 .social__item {
     display: flex;
@@ -253,6 +264,16 @@ p {
     border: 1px solid #e8ecee;
     background-color: #D5D3D3FF;
 }
+.social--footer .social__item {
+    background: none;
+    border-width: 2px;
+    border-radius: 2px;
+}
+.social--footer .social__item:hover {
+    background-color: #ffffff;
+    transition: .2s linear;
+}
+
 /* Reviews
 ==================================================*/
 .reviews {
@@ -275,7 +296,6 @@ p {
     right: 0;
     z-index: 1;
     transform: translateY(-50%);
-
 }
 .reviews__content {
     width: 50%;
@@ -298,6 +318,7 @@ p {
     text-transform: uppercase;
     color: #ffffff;
 }
+
 /* Download
 ==================================================*/
 .download {
@@ -317,19 +338,21 @@ p {
     font-weight: 700;
     text-transform: uppercase;
 }
-/* Download
+
+/* Footer
 ==================================================*/
 .footer {
-    padding: 70px 0;
     background-color: #3a3e64;
 }
 .footer__inner {
+    padding: 70px 0;
     display: flex;
     flex-wrap: wrap;
 }
 .footer__block {
     width: 33.33333%;
     text-align: center;
+    padding: 0 15px;
 }
 .footer__title {
     margin-bottom: 10px;
@@ -343,6 +366,27 @@ p {
     line-height: 1.5;
     font-style: normal;
     color: rgba(255, 255, 255, 0.5);
+}
+.footer__text {
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Copyright
+==================================================*/
+.copyright {
+    padding: 20px 0;
+    background-color: #313454;
+}
+.copyright__text {
+    text-align: center;
+    font-size: 14px;
+    color: #808080;
+    line-height: 1.5;
+}
+.copyright__text span {
+    color: #ffffff;
 }
 
 
