@@ -6,7 +6,6 @@ $(function () {
 
   $(window).on("scroll", function () {
     scrollPos = $(this).scrollTop();
-
     if (scrollPos > introH) {
       header.addClass("fixed");
     } else {
