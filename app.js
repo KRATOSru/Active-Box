@@ -4,6 +4,8 @@ $(function () {
   let intro = $("#intro");
   let introH = intro.innerHeight();
   let scrollPos = $(window).scrollTop();
+  let nav = $("#nav");
+  let navToggle = $("#navToggle");
 
   checkScroll(scrollPos, introH);
 
@@ -29,6 +31,8 @@ $(function () {
     let elementId = $(this).data("scroll");
     let elementOffset = $(elementId).offset().top;
 
+    nav.removeClass("show");
+
     $("html, body").animate(
       {
         scrollTop: elementOffset - 70,
@@ -38,9 +42,6 @@ $(function () {
   });
 
   /* Nav Toggle */
-  let nav = $("#nav");
-  let navToggle = $("#navToggle");
-
   navToggle.on("click", function (event) {
     event.preventDefault();
 
