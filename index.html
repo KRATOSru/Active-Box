@@ -23,15 +23,17 @@
           <div class="header__logo">
             <img src="images/loream%20input.png" alt="" />
           </div>
-          <nav class="nav">
-            <a class="nav__link" href="#">FEATURES</a>
-            <a class="nav__link" href="#">WORKS</a>
-            <a class="nav__link" href="#">OUR TEAM</a>
-            <a class="nav__link" href="#">TESTIMONIALS</a>
-            <a class="nav__link" href="#">DOWNLOAD</a>
+          <nav class="nav" id="nav">
+            <a class="nav__link" href="#" data-scroll="#featers">FEATURES</a>
+            <a class="nav__link" href="#" data-scroll="#works">WORKS</a>
+            <a class="nav__link" href="#" data-scroll="#team">OUR TEAM</a>
+            <a class="nav__link" href="#" data-scroll="#reviews"
+              >TESTIMONIALS</a
+            >
+            <a class="nav__link" href="#" data-scroll="#download">DOWNLOAD</a>
           </nav>
 
-          <button class="burger" type="button">
+          <button class="burger" type="button" id="navToggle">
             <span class="burger_item">Menu</span>
           </button>
         </div>
@@ -53,7 +55,7 @@
     </div>
 
     <!--Features-->
-    <div class="container">
+    <div class="container" id="featers">
       <div class="features">
         <div class="features__item">
           <img
@@ -131,7 +133,7 @@
     </div>
 
     <!--Works-->
-    <div class="works">
+    <div class="works" id="works">
       <div class="works__item">
         <img
           class="works__photo"
@@ -223,7 +225,7 @@
     </div>
 
     <!--Team-->
-    <div class="team">
+    <div class="team" id="team">
       <div class="container">
         <div class="team__inner">
           <div class="team__item">
@@ -355,7 +357,7 @@
     </div>
 
     <!--Testimonials-->
-    <div class="reviews">
+    <div class="reviews" id="reviews">
       <div class="container">
         <div class="reviews__item">
           <div class="reviews__photo">
@@ -373,7 +375,7 @@
     </div>
 
     <!--Team-->
-    <div class="download">
+    <div class="download" id="download">
       <div class="container">
         <h3 class="download__title">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora!
@@ -413,7 +415,7 @@
           <div class="footer__block">
             <h4 class="footer__title">About ActiveBox</h4>
             <div class="footer__text">
-              <p> 
+              <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
                 autem corporis error eveniet labore laboriosam.
               </p>
@@ -433,6 +435,5 @@
 
     <!-- Javascript -->
     <script src="app.js"></script>
-
   </body>
 </html>
