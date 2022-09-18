@@ -45,7 +45,8 @@ p {
 .header.fixed {
   height: auto;
   position: fixed;
-  background-color: #31344e;
+  /* background-color: #31344e; */
+  background-color: #7a856b;
 }
 /* .header.fixed.header__inner {
   padding-top: 15px;
@@ -127,7 +128,7 @@ p {
   justify-content: center;
   height: 750px;
   padding-top: 100px;
-  background: #31344e url("images/man-5640540_1280.webp") center no-repeat;
+  background: #31344e url("images/new img/R17351_image1.webp") center no-repeat;
   background-size: cover;
 }
 .intro__inner {
@@ -393,7 +394,7 @@ p {
 /* Footer
 ==================================================*/
 .footer {
-  background-color: #3a3e64;
+  background-color: #53354a;
 }
 .footer__inner {
   padding: 70px 0;
@@ -428,7 +429,7 @@ p {
 ==================================================*/
 .copyright {
   padding: 20px 0;
-  background-color: #313454;
+  background-color: #7a856b;;
 }
 .copyright__text {
   text-align: center;
